@@ -397,7 +397,7 @@ td img{
 .total-price table{
     border-top: 3px solid #ff523b;
     width: 100%;
-    max-width: 350%;
+    max-width: 400px;
 }
 td:last-child{
     text-align: right;
@@ -405,6 +405,63 @@ td:last-child{
 th:last-child{
     text-align: right;
 }
+/*------account page-----*/
+.account-page{
+    padding: 50px 0;
+    background: radial-gradient(#fff,#ffd6d6)
+}
+.form-container{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.form-btn{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+form.btn:focus{
+    outline: none;
+
+}
+#LoginForm{
+    left: -300px;
+}
+#RegForm{
+    left: 0;
+}
+
+
 
 
 /*------media query for less than 60 screen size-----*/
@@ -425,6 +482,9 @@ th:last-child{
    .single-product h1{
     font-size: 26px;
     line-height: 32px;
+   }
+   .cart-info p{
+     display: none;
    }
 }
 
