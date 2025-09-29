@@ -390,6 +390,21 @@ td img{
     height: 80px;
     margin-right: 10PX;
 }
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table{
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 350%;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
 
 
 /*------media query for less than 60 screen size-----*/
