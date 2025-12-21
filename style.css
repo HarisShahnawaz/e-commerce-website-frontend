@@ -501,3 +501,18 @@ form a{
    }
 }
 
+/*------about us-----*/
+.about-us{
+      height: 50vh;
+    width: 100%;
+    text-align: center;
+    color: #1d0c0c;
+}
+.about-us h3{
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 40px;
+}
+.about-us p{
+      padding: 15px 0 25px;
+      box-sizing: border-box;
+}
